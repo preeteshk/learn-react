@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const h1 = React.createElement("h1", {}, "h1 tag 1");
 const h2 = React.createElement("h1", {}, "h1 tag 2");
 const child = React.createElement("div", { id: "child" }, [h1, h2]);
